@@ -4,7 +4,7 @@
 baseurl:
 url: https://liamgheng.github.io
 date_format: "ordinal"
-title: "GH Blog"
+title: "Gh Blog"
 subtitle: ""
 description: ""
 keywords: 
@@ -54,7 +54,7 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Guo Heng
+author: Gh
 organization: 
 organization_url: 
 github_username: liamgheng 
