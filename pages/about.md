@@ -1,41 +1,18 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: ""
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+已三十而立。
 
-仰慕「优雅编码的艺术」。
+目前在 Chaitin 负责 WAF 云化的工作。
 
-坚信熟能生巧，努力改变人生。
+2023 年计划输出计算机网络，eBPF，Cloud 相关的内容。
 
-## 联系
-
-<ul>
-{% for website in site.data.social %}
-<li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
-{% endfor %}
-{% if site.url contains 'mazhuang.org' %}
-<li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
-</li>
-{% endif %}
-</ul>
-
-
-## Skill Keywords
-
-{% for skill in site.data.skills %}
-### {{ skill.name }}
-<div class="btn-inline">
-{% for keyword in skill.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+写博客对自我要求：
+- 一篇博客会持续更新，因为认知是在迭代的。
+- 输出的内容需要做实验，或者看源码验证，避免人云亦云，相信慢就是快。
