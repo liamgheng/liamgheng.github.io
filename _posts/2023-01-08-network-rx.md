@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 网络收包流程浅析 
-categories: Blog
-keywords: 计算机网络 
+categories: 计算机网络
 ---
 
 此文分析数据包从到达网卡开始，到唤起线程的整个过程。
