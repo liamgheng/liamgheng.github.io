@@ -18,10 +18,10 @@ entries:
 
   # - title: posts by category
   #   post_list:
-  #     category: example2
+  #     category: habbit
   #     show_more: true
   #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
+  #     show_more_url: habbit-archive.html
 
   - title: rss
     url: feed.xml
@@ -30,8 +30,8 @@ entries:
     entries:
       - title: 测试分类
         entries:
-          - title: 某个分类
-            url: example2-archive.html
+          - title: 习惯
+            url: habbit.html
   # - title: PRO TIP
   #   entries:
   #     - title: to edit this menu, edit _data/menu.yml file
