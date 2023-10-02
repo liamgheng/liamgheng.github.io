@@ -28,10 +28,9 @@ entries:
   
   - title: category
     entries:
-      - title: 测试分类
-        entries:
-          - title: 习惯
-            url: habbit.html
+      - title: 习惯
+        url: habbit.html
+          
   # - title: PRO TIP
   #   entries:
   #     - title: to edit this menu, edit _data/menu.yml file
