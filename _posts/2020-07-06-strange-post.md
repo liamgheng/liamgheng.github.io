@@ -1,6 +1,7 @@
 ---
 layout: post
-custom_js: mouse_coords
+title: "Language Tests"
+category: habbit
 ---
 
 This post is strange. It also has some custom js.
