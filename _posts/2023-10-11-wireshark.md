@@ -34,7 +34,7 @@ title: "tcpdump 抓包 & wireshark 分析"
 
 可以快速浏览基本统计信息，比如下图看到发送了 176 SYN，但是只收到了 75 个 SYN ACK，那么说明在 TCP 建连有丢包，是值得关注的异常。
 
-[summary](assets/image/wireshark/summary.png)
+![summary](assets/image/wireshark/summary.png)
 
 #### Statistics/Conversations
 
@@ -46,7 +46,7 @@ title: "tcpdump 抓包 & wireshark 分析"
 
 然后根据 IP 统计出到哪些 B 服务的 IP 存在重传，从而进一步定位问题。下图表明只到这 5 个 IP 存在重传，那么可以进一步分析这 5 台机器。
 
-[conversation](assets/image/wireshark/conversations.png)
+![conversation](assets/image/wireshark/conversations.png)
 
 ### Statistics/IO Graphs
 
@@ -60,4 +60,4 @@ title: "tcpdump 抓包 & wireshark 分析"
 
 统计 HTTP 报文。
 
-[http](assets/image/wireshark/http.png)
+![http](assets/image/wireshark/http.png)
