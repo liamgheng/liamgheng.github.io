@@ -24,7 +24,7 @@ title: "tcpdump 抓包 & wireshark 分析"
 
 常用的一般是基于 7 层（http method，url），4 层（tcp header，比如 syn 标志位），3 层信息（ip）过滤。
 
-![具体参考](https://www.wireshark.org/docs/man-pages/wireshark-filter.html)
+[具体参考](https://www.wireshark.org/docs/man-pages/wireshark-filter.html)
 
 ### 统计
 
